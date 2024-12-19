@@ -1,0 +1,3 @@
+# NullReferenceException Bug in C# 
+
+This repository demonstrates a common C# bug: the `NullReferenceException`. The bug occurs when trying to access a member of an object that is currently null. The code snippet `Console.WriteLine(MyProperty.ToString());` will throw a `NullReferenceException` if `MyProperty` is null. The solution showcases proper null checking before accessing members. This is crucial for robust and error-free C# applications.  Understanding and handling null references is essential in preventing unexpected application crashes.
